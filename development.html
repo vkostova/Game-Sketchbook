@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Development</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/lightswitch.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="/p5.js"></script>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div>
+      <ul class="menu">
+        <li><a href="/about.html">ABOUT</a></li>
+        <li class="active"><a href="/development.html">DEVELOPMENT</a></li>
+        <li><a href="/idea.html">THE IDEA</a></li>
+        <li style="float:left"><a href="/home.html">HOME</a></li>
+      </ul>
+    </div>
+    <div class="title">DEVELOPMENT</div>
+
+    <div>
+      <body class="code" onload="typeWriter()">
+      <p id="code">
+        
+      </p>
+    </div>
+
+    <p class="ntext">
+        Welcome to the development page. This is were I talk about
+        the development process of the game. There was many steps and
+        hoops that I do go through in order to find the best way
+        to build the first prototype of the game. The game is build in
+        Unity and the first prototype has been build and texted 
+        within 10 weeks.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+
+    <div class="section2">
+      <div class="d">
+        <div class="dtitle">2D</div>
+        <div class="dtitle">vs.</div>
+        <div class="rotate">
+          <div class="move">
+            <div>
+              3
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+              <div>3</div>
+            </div>
+            <div>
+              D
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+              <div>D</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="ntext">
+        Since my idea was to go with an isometric look and feel for
+        the game I had to decide how to build the game. Do I build 
+        the game in a 2D environment and add sprites and flat elements
+        that are build to look like a 3D element or do I decide to 
+        build everything in 3D and find the best possible 
+        camera and view angle to show an isomentric view.
+        I decided to go with a 3D environment because I would find 
+        it easier to build my environement in a 3D view. The biggest
+        challenge was to find the right angle for the camera to look
+        at the scene.
+      </p>
+    </div>
+
+    <span>
+      <div class="dark">
+        <div class="lightswitch" id="section3">
+          <div>
+            <div>
+              <section class="panel">
+                <input id="switch" checked="checked" type="checkbox" />
+                <label for="switch"></label>
+                <div class="overlay"></div>
+              </section>
+            </div>
+          </div>
+
+          <div>
+            <h1 class="title">LIGHTING</h1>
+
+            <p class="ntext">
+              The lighting of the game plays a big impact on the look and feel
+              of the game. The aesthetic changes with a dark or light theme
+              so I did the only thing I could: I build one option first and
+              tested to see if the option has to even be build. I started 
+              by creating the scene in a very light environment with a white
+              background and blue main characters but red resources. The game
+              is easily understood in testing but I do what build the dark 
+              themed version of it and see what kind of effect it would
+              have on the overall effect. I just want to flip the switch!
+            </p>
+          </div>
+        </div>
+      </div>
+    </span>
+
+    <div>
+      <script src="/mechbg.js" defer></script>
+      <div id="sketch-holder">
+        <!-- Our sketch will go here! -->
+      </div>
+      <h1 class="title">MECHANICS</h1>
+
+      <p class="ntext">
+        Now the mechanics. You have to connect the dots.
+        I did base the game on a simple idea: 
+        Overpopulation and food distribution. But how is this shown
+        in a mechanic that drives a game?! I started building each
+        element on its own and thought about how they interact with
+        one another. After adding script after script I ended up
+        with a scene where all elements are somehow interacting with
+        one another. I will continue to improve these interactions
+        to build the best systematic game possible.
+      </p>
+    </div>
+    <div class="footer">
+      <p>
+        Made with ♥ by
+        <a id="footer" href="https://veronikaikostova.com">Veronika Kostova</a>
+      </p>
+    </div>
+  </body>
+</html>
